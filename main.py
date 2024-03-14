@@ -1,7 +1,7 @@
 import random
 randNumber=random.randint(1,100)
 guesses=0
-# userguess=None
+userguess=None
 while(userguess!=randNumber):
     userguess=int(input("Enter yor Guess: "))
     guesses+=1
