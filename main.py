@@ -13,6 +13,3 @@ while(userguess!=randNumber):
         else:    
             print("oops!! You guessed it wrong, enter a smaller guess")
 print(f"You took total {guesses} chances to guess the number")
-
-with open("hiscore.txt", "r") as f:
-    hiscore=f.read()
