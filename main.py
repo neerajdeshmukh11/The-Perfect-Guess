@@ -1,3 +1,4 @@
+# This program helps to find the correct numbers assummed by the pc 
 import random
 randNumber=random.randint(1,100)
 guesses=0
